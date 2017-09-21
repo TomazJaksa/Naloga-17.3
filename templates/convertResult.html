@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>SmartNinja basic Jinja template</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+	<!--GOOGLE FONT-->
+	<link href="https://fonts.googleapis.com/css?family=Jura|Lobster+Two" rel="stylesheet">
+</head>
+<body>
+    <h1>Conversion result:</h1>
+    <main>
+        <p>
+            {% if miles != 0 %}
+                {{miles}} miles
+            {% elif km != 0%}
+                {{km}} kilometres
+            {% endif%}
+
+             is {{result}} 
+            {% if miles != 0 %}
+                kilometres.
+            {% else %}
+                miles.
+            {% endif %}
+        </p>
+    <br/>
+    <a href="/">Return to the main page!</a>
+    </main>
+</body>
+</html>

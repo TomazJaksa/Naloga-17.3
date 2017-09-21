@@ -1,0 +1,94 @@
+
+* { /*default alignment for the browser*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {		
+	/*Tekst*/
+	font-family: 'Lobster Two', cursive;
+	font-family: 'Jura', sans-serif;
+	text-align:center;	 
+}
+
+h1 {	
+	/*Box-model*/
+	padding:1em;
+	width: 60%;
+	border-radius: 5px;
+	margin: 0 auto;
+		
+	/*Color*/
+	background-color: darkgreen;
+	color: white;
+
+	/*Tekst*/
+	text-align: center;	
+}
+
+form {
+	/*Box-model*/
+	box-shadow: 2px 5px 8px grey;
+	padding: 2em;
+	border-radius: 5px;
+	width: 30%;
+	margin: 2em auto;
+	margin-bottom: 4em;
+		
+	/*Color*/
+	background-color: beige;	
+}
+
+.fields,input,select,option {
+	/*Positioning*/
+		
+	/*Box-model*/
+	padding: 0.5em;
+	border-radius: 5px;
+	border: solid silver 1px;
+	margin-bottom: 0.5em;
+	margin-top:0.5em;
+		
+	/*Color*/
+		
+	/*Tekst*/
+	font-family: 'Lobster Two', cursive;
+	font-size: 15px;
+		
+	/*Ostalo*/
+	outline:none;
+}
+
+input[type="submit"]{
+	margin-bottom: 0;
+}
+
+main {
+	/*Positioning*/
+		
+	/*Box-model*/
+	margin-top: 2em;
+		
+	/*Color*/
+		
+	/*Tekst*/
+	font-size: 50px;
+		
+	/*Ostalo*/
+	
+}
+
+a {
+	/*Positioning*/
+		
+	/*Box-model*/
+		
+	/*Color*/
+	color: darkgreen;
+		
+	/*Tekst*/
+	text-decoration: none;
+	font-size: 15px;
+		
+	/*Ostalo*/
+}

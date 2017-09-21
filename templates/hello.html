@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>SmartNinja basic Jinja template</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+	<!--GOOGLE FONT-->
+	<link href="https://fonts.googleapis.com/css?family=Jura|Lobster+Two" rel="stylesheet">
+</head>
+<body>
+    <h1>Guess the hidden number:</h1>
+
+    <form method="POST" action="/guess">
+    	<input class="fields" type="number" name="vnos" autofocus>
+    	<input type="submit" value="Submit">
+    </form>
+
+    <h1>Convert:</h1>
+
+    <form method="POST" action="/convert">
+    	<input class="fields" type="number" name="value"><br>
+    	<select name="conversion">
+    		<option value="fromKmToMiles">From Km to Miles</option>
+    		<option value="fromMilesToKm">From Miles to Km</option>		
+    	</select>
+    	<br>
+    	<input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
